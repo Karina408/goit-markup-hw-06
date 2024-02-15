@@ -473,28 +473,20 @@
           </ul>
         </div>
       </div>
-
-      <!--===============Form=========================-->
-
-      <div class="backdrop">
-        <div class="modal">
-          <button type="button" class="modal-close">
-            <svg class="modal-close-button" width="9" height="9">
-              <use href="./images/icons5.svg#icon-modal-close"></use>
-            </svg>
-          </button>
-          <p class="modal-title">
-            Leave your contacts and we will call you back
-          </p>
-          <form class="modal-form">
+    </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close">
+          <svg class="modal-close-button" width="8" height="8">
+            <use href="./images/icons5.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="form-box">
             <label class="form-label">
               <span class="label-text">Name</span>
-              <input
-                type="text"
-                name="user-name"
-                autofocus
-                class="modal-input"
-              />
+              <input type="text" for="user-name" class="modal-input" />
             </label>
             <label class="form-label">
               <span class="label-text">Phone</span>
@@ -509,13 +501,13 @@
               <span class="label-text">Email</span>
               <input type="email" name="user-email" class="modal-input" />
             </label>
+          </div>
 
-            <button class="button-submit" type="submit">
-              <span class="button-text">Send</span>
-            </button>
-          </form>
-        </div>
+          <button class="button-submit" type="submit">
+            <span class="button-text">Send</span>
+          </button>
+        </form>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
