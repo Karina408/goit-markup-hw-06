@@ -699,10 +699,7 @@ input:checked {
   border: none;
   border-radius: 4px;
 }
-.submit_button {
-  display: flex;
-  justify-content: center;
-}
+
 .footer-icon-send {
   margin-left: 16px;
 }
