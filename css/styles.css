@@ -619,6 +619,7 @@ input:checked {
 .label-text:checked {
   border: none;
   fill: #f4f4fd;
+  background-color: #404bbf;
 }
 .chek-box-link {
   color: #4d5ae5;
