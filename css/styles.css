@@ -630,6 +630,8 @@ input:checked {
   color: #4d5ae5;
 }
 .button-submit {
+  display: block;
+  margin-left: 93px;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
