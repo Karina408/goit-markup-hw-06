@@ -545,7 +545,6 @@ p {
 .modal-input:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
-  fill: #4d5ae5;
 }
 .icon-for-user {
   position: absolute;
@@ -611,6 +610,13 @@ p {
 }
 .check-box-icon:checked {
   background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+input:checked {
+  background-color: #404bbf;
+}
+.label-text:checked {
   border: none;
   fill: #f4f4fd;
 }
@@ -689,4 +695,10 @@ p {
 }
 .footer-icon-send {
   margin-left: 16px;
+}
+input:focus {
+  border-color: #4d5ae5;
+}
+input:focus-within {
+  border-color: #4d5ae5;
 }
